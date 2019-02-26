@@ -6,8 +6,7 @@
 //  Copyright © 2018 subdiox. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface sidifycrack : NSObject
-
+@import Foundation;
+#import "hooker.h"
+@interface sidifycrack : NSObject<Hook>
 @end

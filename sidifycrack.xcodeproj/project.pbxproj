@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		4CC45A6421A51BD400720787 /* sidifycrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC45A6321A51BD400720787 /* sidifycrack.h */; };
 		4CC45A6621A51BD400720787 /* sidifycrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC45A6521A51BD400720787 /* sidifycrack.m */; };
+		4CC45A6E21A51BEA00720787 /* hooker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC45A6C21A51BEA00720787 /* hooker.h */; };
+		4CC45A6F21A51BEA00720787 /* hooker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC45A6D21A51BEA00720787 /* hooker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4CC45A6021A51BD400720787 /* libsidifycrack.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libsidifycrack.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC45A6321A51BD400720787 /* sidifycrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sidifycrack.h; sourceTree = "<group>"; };
 		4CC45A6521A51BD400720787 /* sidifycrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sidifycrack.m; sourceTree = "<group>"; };
+		4CC45A6C21A51BEA00720787 /* hooker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hooker.h; sourceTree = "<group>"; };
+		4CC45A6D21A51BEA00720787 /* hooker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hooker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 			children = (
 				4CC45A6321A51BD400720787 /* sidifycrack.h */,
 				4CC45A6521A51BD400720787 /* sidifycrack.m */,
+				4CC45A6C21A51BEA00720787 /* hooker.h */,
+				4CC45A6D21A51BEA00720787 /* hooker.m */,
 			);
 			path = sidifycrack;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC45A6E21A51BEA00720787 /* hooker.h in Headers */,
 				4CC45A6421A51BD400720787 /* sidifycrack.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC45A6621A51BD400720787 /* sidifycrack.m in Sources */,
+				4CC45A6F21A51BEA00720787 /* hooker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
